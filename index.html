@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Trái tim Lý Tuân</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="heart.js" defer></script>
+  </head>
+  <body>
+    <main class="scene" aria-label="Trái tim Lý Tuân">
+      <canvas id="heart" role="img" aria-label="Trái tim tạo từ hàng nghìn hạt sáng màu hồng, co giãn theo nhịp đập">
+        Trình duyệt của bạn cần hỗ trợ Canvas để hiển thị trái tim.
+      </canvas>
+    </main>
+
+    <div class="controls" role="group" aria-label="Điều khiển hiệu ứng">
+      <button id="pause" type="button" aria-label="Tạm dừng" aria-pressed="false" title="Tạm dừng (Space)">
+        <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5v14M15 5v14" /></svg>
+        <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 10 7-10 7Z" /></svg>
+      </button>
+      <button id="fullscreen" type="button" aria-label="Bật toàn màn hình" aria-pressed="false" title="Toàn màn hình (F)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5" /></svg>
+      </button>
+    </div>
+    <noscript>Bật JavaScript để xem hiệu ứng trái tim.</noscript>
+  </body>
+</html>
